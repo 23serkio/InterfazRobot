@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fondo negro para simular entrada de video -->
+    <div id="video-simulation">
+        <h1>Simulación de Entrada de Video</h1>
+    </div>
+
+    <!-- Panel de control para botones y sliders -->
+    <div id="control-panel">
+        <h2>Panel de Control</h2>
+        <!-- Botones principales -->
+        <button id="start">Iniciar</button>
+        <button id="stop">Detener</button>
+        <!-- Slider para ajustar altura -->
+        <label for="height-slider">Ajustar Altura:</label>
+        <input type="range" id="height-slider" min="0" max="100" value="50">
+        <!-- Indicador de estado -->
+        <p id="status">Estado: Listo</p>
+    </div>
+
+    <!-- Div para mostrar teclas presionadas -->
+    <div id="keyboard-display">
+        <h2>Tecla Presionada</h2>
+        <p id="key-pressed">Ninguna</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Fondo negro para simular video */
+#video-simulation {
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: 24px;
+}
+
+/* Panel de control */
+#control-panel {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Slider */
+input[type="range"] {
+    width: 80%;
+    margin: 10px 0;
+}
+
+/* Tecla presionada */
+#keyboard-display {
+    padding: 20px;
+    text-align: center;
+}
